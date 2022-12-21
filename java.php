@@ -27,7 +27,7 @@
   border-top-left-radius: 16px;
   border-top-right-radius: 16px;
   border-bottom-left-radius: 16px;
-  border-bottom-right-radius: 16px;>"
+  border-bottom-right-radius: 16px;">
                     <div class="card mb-3 mr-3" style="width: 18rem;">
                     <div class="card-body">
                     <h2 class="card-title"><?=$item['nama'];?></h2>
