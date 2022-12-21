@@ -21,6 +21,26 @@
             <div class="card-body px-5 mx-5">
             <form action="methods/signup.php" method="post" class="d-flex flex-column justify-content-center" enctype="multipart/form-data">
                     <div class="form-group">
+                        <label for="username" class="text-light">Nama</label>
+                        <input type="text" name="nama" id="username" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="username" class="text-light">Email</label>
+                        <input type="email" name="email" id="username" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="username" class="text-light">Tempat</label>
+                        <input type="text" name="tempat_lahir" id="username" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="username" class="text-light">Tanggal Lahir</label>
+                        <input type="date" name="tanggal_lahir" id="username" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="username" class="text-light">Nomor HP</label>
+                        <input type="text" name="no_hp" id="username" class="form-control" required>
+                    </div>
+                    <div class="form-group">
                         <label for="username" class="text-light">Username</label>
                         <input type="text" name="username" id="username" class="form-control" required>
                     </div>

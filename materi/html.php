@@ -2,13 +2,13 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>python</title>
+	<title>HTML</title>
 </head>
 <body>
     <?php 
-        include "koneksi.php";
+        include "../koneksi.php";
 
-        $sql = "SELECT * FROM java";
+        $sql = "SELECT * FROM html";
         $query = $koneksi->query($sql);
         
     ?>
@@ -27,7 +27,7 @@
   border-top-left-radius: 16px;
   border-top-right-radius: 16px;
   border-bottom-left-radius: 16px;
-  border-bottom-right-radius: 16px;>"
+  border-bottom-right-radius: 16px;">
                     <div class="card mb-3 mr-3" style="width: 18rem;">
                     <div class="card-body">
                     <h2 class="card-title"><?=$item['nama'];?></h2>
