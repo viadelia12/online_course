@@ -9,6 +9,11 @@
         include "../koneksi.php";
 
         // Memindahkan data dari POST 
+        $nama = $_POST['nama'];
+        $email = $_POST['email'];
+        $tempat_lahir = $_POST['tempat_lahir'];
+        $tanggal_lahir = $_POST['tanggal_lahir'];
+        $no_hp = $_POST['no_hp'];
         $username = $_POST['username'];
         $password = $_POST['password'];
 
@@ -45,6 +50,11 @@
                 $sql = "INSERT INTO `users` VALUES (
                     '',
                     '$username',
+                    '$nama',
+                    '$email',
+                    '$tempat_lahir',
+                    '$tanggal_lahir',
+                    '$no_hp',
                     '$password',
                     '$photo')";
                 $sql_run = mysqli_query($koneksi, $sql);

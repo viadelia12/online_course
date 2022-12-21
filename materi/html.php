@@ -2,13 +2,13 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>python</title>
+	<title>HTML</title>
 </head>
 <body>
     <?php 
-        include "koneksi.php";
+        include "../koneksi.php";
 
-        $sql = "SELECT * FROM java";
+        $sql = "SELECT * FROM html";
         $query = $koneksi->query($sql);
         
     ?>
