@@ -18,11 +18,11 @@
     <br><br><br>
     <p>Lanjutkan Pembelajaran Terakhirmu!</p>
 
-    <a href="https://sanbercode.com/bootcamp-katalog" class="categories__menu">
+    <a href="daftarkelas.php" class="categories__menu">
     	<img src="https://sanbercode.com/assets_new/images/icons/clarity_sign-in-line.svg">Daftar ke kelas baru
     </a>
 
-    <a href="https://sanbercode.com/list-kelas" class="categories__menu">
+    <a href="daftarkelas.php" class="categories__menu">
     	<img src="https://sanbercode.com/assets_new/images/icons/list.svg" class="categories__icon" style="padding: 7px;"> <span class="categories__menu-title">Lihat Daftar Kelas Saya</span>
     </a>
   </body>
