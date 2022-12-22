@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     
-    <title>Register Smart Student</title>
+    <title>Register Online Course</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="icon" href="assets/images/upn.png" type="image/ico" />

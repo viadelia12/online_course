@@ -11,7 +11,7 @@
    	<link rel="icon" href="assets/images/upn.png" type="image/ico" />
      
 
-    <title> Smart Student UPN "VETERAN" YOGYAKARTA </title>
+    <title> Online Course </title>
 
     <!-- Bootstrap -->
     <link href="assets/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -49,7 +49,7 @@
             <center>
             &nbsp;
             <a class="navbar-brand">
-                <img src="assets/images/upn.png" class="logo" alt="logo" width="15%"><span><font size="4.95" color="white" face="Helvetica Neue"> SMART STUDENT</font></span>
+                <img src="assets/images/upn.png" class="logo" alt="logo" width="15%"><span><font size="4.95" color="white" face="Helvetica Neue"> Online Course</font></span>
             </a>
             </center>
             </div>
@@ -77,11 +77,11 @@
                 <ul class="nav side-menu">
                   <li><a href="index.php"><i class="fa fa-home"></i> Home <span class="fa fa-chevron"></span></a>
                   </li>
-                  <li><a href="#"><i class="fa fa-desktop"></i> Data Mahasiswa <span class="fa fa-chevron-down"></span></a>
-                    <ul class="nav child_menu">
-                      <li><a href="index.php?page=tampil_mhs">Tampil Data</a></li>
-                      <li><a href="index.php?page=tambah_mhs">Tambah Data</a></li>
-                    </ul>
+                  <li><a href="index.php?page=profile"><i class="fa fa-desktop"></i> Profile <span class="fa fa-chevron"></span></a>
+                  </li>
+                  <li><a href="daftarkelas.php"><i class="fa fa-desktop"></i> Daftar Kelas <span class="fa fa-chevron"></span></a>
+                  </li>
+                  <li><a href="kelas_saya.php"><i class="fa fa-desktop"></i> Kelas Saya <span class="fa fa-chevron"></span></a>
                   </li>
                 </ul>
               </div>
@@ -128,22 +128,18 @@
       parse_str($_SERVER['QUERY_STRING'], $queries);
       error_reporting(E_ALL ^ (E_NOTICE | E_WARNING));
       switch ($queries['page']) {
-      	case 'tampil_mhs':
+      	case 'profile':
       		# code...
-      		include 'tampil.php';
+      		include 'home.php';
       		break;
-      	case 'tambah_mhs':
+      	case 'daftar_kelas':
       		# code...
-      		include 'tambah.php';
+      		include 'daftarkelas.php';
       		break;
-        case 'edit_mhs':
+        case 'kelas_saya':
         		# code...
-        	include 'edit.php';
+        	include 'kelas_saya.php';
         	break;
-        case 'edit_mhs_save':
-          		# code...
-          include 'edit.php';
-          break;
         default:
 		          #code...
 		      include 'home.php';
